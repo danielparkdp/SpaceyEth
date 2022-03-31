@@ -3346,6 +3346,14 @@ select {
   color: rgba(30, 41, 59, var(--tw-text-opacity));
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.hover\:enlarge-50:hover {
+  transform: scale(1.05);
+}
+
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
